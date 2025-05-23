@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background: url('/src/assets/background/bg-form.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  & > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+
+    .logo {
+      width: 450px;
+    }
+  }
+
+  .formWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 425px;
+    height: 425px;
+    background-color: white;
+    border-radius: 20px;
+  }
+}

@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: url('/src/assets/background/bg-home.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  .logo {
+    width: 550px;
+    margin-bottom: 6rem;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18rem;
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    background-color: #febb0b;
+    border: 5px solid #e6a900;
+    border-radius: 0.75rem;
+  }
+}
